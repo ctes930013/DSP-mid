@@ -170,4 +170,30 @@ pNoise=PinkNoise()
 
 pNoise.make_wave(13505).plot()
 
+wNoise=UncorrectNuiformNoise()
 
+wNoise.make_wave(13505).plot()
+
+rNoise=BrownianNoise()
+
+rNoise.make_wave(13505).plot()
+
+(e)
+
+wave=pNoise.make_wave(13505)
+
+pSpec=wave.make_spectrum()
+
+pSpec.plot_power()
+
+wave=wNoise.make_wave(13505)
+
+pSpec=wave.make_spectrum()
+
+pSpec.plot_power()
+
+wave=rNoise.make_wave(13505)
+
+pSpec=wave.make_spectrum()
+
+pSpec.plot_power()
