@@ -46,4 +46,22 @@ pl.plot(prData)
 
 <<請打開midsignal01.png
 
+ma100=movingAverage(pData,100)
+
+pl.plot(ma100)
+
+<<請打開midsignal02.png
+
+ma1000=movingAverage(pData,1000)
+
+pl.plot(ma1000)
+
+<<請打開midsignal03.png
+
+ma10000=movingAverage(pData,10000)
+
+pl.plot(ma10000)
+
+<<請打開midsignal04.png
+
 
