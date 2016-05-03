@@ -188,12 +188,12 @@ pSpec.plot_power()
 
 wave=wNoise.make_wave(13505)
 
-pSpec=wave.make_spectrum()
+wSpec=wave.make_spectrum()
 
-pSpec.plot_power()
+wSpec.plot_power()
 
 wave=rNoise.make_wave(13505)
 
-pSpec=wave.make_spectrum()
+rSpec=wave.make_spectrum()
 
-pSpec.plot_power()
+rSpec.plot_power()
