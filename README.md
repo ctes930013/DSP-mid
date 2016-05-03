@@ -1,6 +1,44 @@
 # DSP-mid
 This is my midterm exam in Signal and System
 
+1.(a)
+
+signal=SinSignal(100)
+
+signal.plot()
+
+<<請打開midsignal07.png
+
+signal=TriangleSignal(100)
+
+signal.plot()
+
+<<請打開midsignal08.png
+
+signal=SquareSignal(100)
+
+signal.plot()
+
+<<請打開midsignal09.png
+
+signal=SawtoothSignal(100)
+
+signal.plot()
+
+<<請打開midsignal10.png
+
+(b)
+
+signal=SawtoothSignal(100)
+
+wave=signal.make_wave()
+
+spectrum=wave.make_spectrum()
+
+spectrum.plot()
+
+<<請打開midsignal11.png
+
 2.(a)
 
 from thinkdsp import*
