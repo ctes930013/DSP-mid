@@ -29,6 +29,36 @@ signal.plot()
 
 (b)
 
+signal=SinSignal(100)
+
+wave=signal.make_wave()
+
+spectrum=wave.make_spectrum()
+
+spectrum.plot()
+
+<<請打開midsignal14.png
+
+signal=TriangleSignal(100)
+
+wave=signal.make_wave()
+
+spectrum=wave.make_spectrum()
+
+spectrum.plot()
+
+<<請打開midsignal13.png
+
+signal=SquareSignal(100)
+
+wave=signal.make_wave()
+
+spectrum=wave.make_spectrum()
+
+spectrum.plot()
+
+<<請打開midsignal12.png
+
 signal=SawtoothSignal(100)
 
 wave=signal.make_wave()
@@ -38,6 +68,10 @@ spectrum=wave.make_spectrum()
 spectrum.plot()
 
 <<請打開midsignal11.png
+
+(c)
+
+Sawtooth有最複雜的頻譜結構
 
 2.(a)
 
